@@ -5,5 +5,6 @@ let input = fs.readFileSync(0).toString().trim().split(" ");
 let a = Number(input[0]);
 let b = Number(input[1]);
 
-console.log("300 * 5 = 1500");
-console.log("300 / 5 = 60");
+// 출력
+console.log(`${a} * ${b} = ${a * b}`)
+console.log(`${a} / ${b} = ${parseInt(a / b)}`)
