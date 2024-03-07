@@ -7,9 +7,9 @@ let b = Number(input[1]);
 let c = Number(input[2]);
 
 // 평균 구하기
-// toFixed 메서드를 사용하여 평균을 소수 이하를 버려서 정수로 변환합니다.
-let average = ((a + b + c) / 3).toFixed(0);
+// 소수점을 버려야하기 때문에 parseInt()를 사용합니다.
+let average = parseInt((a + b + c) / 3);
 
 // 출력
-console.log(a + b + c);
+console.log(a + b + c)
 console.log(average);
