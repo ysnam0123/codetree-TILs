@@ -7,5 +7,6 @@ if (a>= 5){
     console.log(s);
 }
 if (a<5){
+    console.log(s);
     console.log("tiny");
 }
