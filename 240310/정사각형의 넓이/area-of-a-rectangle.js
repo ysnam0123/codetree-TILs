@@ -1,6 +1,6 @@
 const fs = require("fs");
-let input = fs.readFileSync(0).toString();
-let a = Number(input[0]);
+let input = fs.readFileSync(0).toString().trim();
+let a = Number(input);
 let s = a*a;
 
 if (a>= 5){
