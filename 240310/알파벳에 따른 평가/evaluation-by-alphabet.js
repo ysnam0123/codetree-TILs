@@ -13,7 +13,7 @@ else if (input === "B") {
 else if (input === "C") {
     console.log("Usually");
 }
-else if (input === "D)") {
+else if (input === "D") {
     console.log("Effort");
 }
 else {
