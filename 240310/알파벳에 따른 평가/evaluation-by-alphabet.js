@@ -10,7 +10,7 @@ else if (input === "A") {
 else if (input === "B") {
     console.log("Good");
 }
-else if (input === "C)") {
+else if (input === "C") {
     console.log("Usually");
 }
 else if (input === "D)") {
